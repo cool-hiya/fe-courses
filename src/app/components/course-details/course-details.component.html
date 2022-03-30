@@ -1,0 +1,2 @@
+<mat-spinner *ngIf="isLoading"></mat-spinner>
+<markdown [src]="sourcePath" (load)="onLoad()" (error)="onError()" [hidden]="isLoading"></markdown>
